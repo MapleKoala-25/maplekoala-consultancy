@@ -5,6 +5,12 @@
 <title>MapleKoala Consultancy | Our Guidance. Your Success</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+<meta name="description" content="MapleKoala Consultancy provides paid consultation for Study Visa, Tourist Visa and Work Visa. Our Guidance. Your Success.">
+<meta name="keywords" content="Study Visa Consultant, Immigration Consultant, Tourist Visa, Work Visa, MapleKoala Consultancy">
+<meta name="author" content="MapleKoala Consultancy">
+
+<link rel="icon" href="assets/logo.png" type="image/png">
+
 <style>
 body {
   margin: 0;
@@ -16,16 +22,21 @@ body {
 header {
   background: #0B3C5D;
   color: white;
-  padding: 20px;
+  padding: 30px 20px;
   text-align: center;
 }
 
+header img {
+  max-width: 130px;
+  margin-bottom: 10px;
+}
+
 header h1 {
-  margin: 0;
+  margin: 5px 0;
 }
 
 header p {
-  margin-top: 8px;
+  margin: 0;
   font-size: 16px;
 }
 
@@ -55,22 +66,24 @@ section {
 .cta {
   background: #C0392B;
   color: white;
-  padding: 30px;
+  padding: 35px 20px;
   text-align: center;
 }
 
 .cta a {
   background: white;
   color: #C0392B;
-  padding: 12px 25px;
+  padding: 14px 28px;
   text-decoration: none;
-  border-radius: 5px;
+  border-radius: 6px;
   font-weight: bold;
+  display: inline-block;
+  margin-top: 10px;
 }
 
 .contact {
   background: white;
-  padding: 30px;
+  padding: 25px;
   border-radius: 8px;
 }
 
@@ -87,16 +100,17 @@ footer {
 <body>
 
 <header>
+  <img src="assets/logo.png" alt="MapleKoala Consultancy Logo">
   <h1>MapleKoala Consultancy</h1>
-  <p>Our Guidance. Your Success</p>
+  <p><strong>Our Guidance. Your Success</strong></p>
 </header>
 
 <section>
   <h2>About Us</h2>
   <p>
-    MapleKoala Consultancy provides transparent and professional guidance for
-    Study Visa, Tourist Visa, Work Visa, and Immigration services.
-    We focus on ethical counselling and accurate profile evaluation.
+    MapleKoala Consultancy offers transparent and professional visa guidance.
+    We specialize in Study Visa, Tourist Visa and Work Visa consultation with
+    ethical counselling and documented advice.
   </p>
 </section>
 
@@ -104,30 +118,78 @@ footer {
   <h2>Our Services</h2>
   <div class="services">
     <div class="card">
-      <h3>🎓 Study Visa Guidance</h3>
-      <p>Country & course selection, eligibility check, SOP guidance.</p>
+      <h3>🎓 Study Visa</h3>
+      <p>Profile evaluation, country & course selection, eligibility guidance.</p>
     </div>
     <div class="card">
       <h3>✈️ Tourist Visa</h3>
-      <p>Canada, Australia, UK, Schengen & more.</p>
+      <p>Visitor visa guidance for Canada, Australia, UK, Schengen & more.</p>
     </div>
     <div class="card">
       <h3>💼 Work Visa</h3>
-      <p>Job-linked and profile-based work visa guidance.</p>
+      <p>Job-based and profile-based work visa consultation.</p>
     </div>
     <div class="card">
       <h3>📑 Paid Consultation</h3>
-      <p>One-to-one profile evaluation with written advice.</p>
+      <p>One-to-one expert consultation with clear recommendations.</p>
     </div>
   </div>
 </section>
 
 <section class="cta">
+  <section>
+  <h2>Book Consultation</h2>
+
+  <form action="https://formspree.io/f/abcdwxyz" method="POST" style="
+    background:white;
+    padding:25px;
+    border-radius:8px;
+    max-width:600px;
+    margin:auto;
+    box-shadow:0 2px 10px rgba(0,0,0,0.1);">
+
+    <label>Full Name</label><br>
+    <input type="text" name="name" required style="width:100%;padding:10px;"><br><br>
+
+    <label>Email Address</label><br>
+    <input type="email" name="email" required style="width:100%;padding:10px;"><br><br>
+
+    <label>Mobile / WhatsApp</label><br>
+    <input type="text" name="phone" required style="width:100%;padding:10px;"><br><br>
+
+    <label>Visa Type</label><br>
+    <select name="visa_type" style="width:100%;padding:10px;">
+      <option>Study Visa</option>
+      <option>Tourist Visa</option>
+      <option>Work Visa</option>
+      <option>Other</option>
+    </select><br><br>
+
+    <label>Message</label><br>
+    <textarea name="message" rows="4" style="width:100%;padding:10px;"></textarea><br><br>
+
+    <!-- Optional: Redirect after submit -->
+    <input type="hidden" name="_next" value="https://maplekoala.github.io/thankyou.html">
+
+    <!-- Optional: Disable spam -->
+    <input type="hidden" name="_captcha" value="false">
+
+    <button type="submit" style="
+      background:#C0392B;
+      color:white;
+      padding:12px 20px;
+      border:none;
+      border-radius:5px;
+      font-size:16px;
+      cursor:pointer;">
+      Submit Consultation Request
+    </button>
+  </form>
+  </section>
   <h2>Book Paid Consultation</h2>
   <p>Paying Small Fee Today, Saving Lakhs Tomorrow</p>
-  <br>
-  <a href="https://formspree.io/f/abcdwxyz"
-    Book Appointment
+  <a form action="https://formspree.io/f/abcdwxyz" method="POST">
+    Book Consultation Now
   </a>
 </section>
 
@@ -144,5 +206,20 @@ footer {
   © 2025 MapleKoala Consultancy. All Rights Reserved.
 </footer>
 
+<!-- WhatsApp Floating Button -->
+<a href="https://wa.me/917304381129" target="_blank" style="
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25D366;
+color:white;
+padding:14px 18px;
+border-radius:50px;
+text-decoration:none;
+font-weight:bold;
+box-shadow:0 2px 10px rgba(0,0,0,0.3);
+z-index:999;">
+💬 WhatsApp
+</a>
 </body>
-</html>
+  </html>
